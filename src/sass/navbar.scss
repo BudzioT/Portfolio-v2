@@ -1,0 +1,47 @@
+@use "colors" as colors;
+@use "fonts";
+
+nav {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 50px;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  padding-left: 3%;
+  padding-right: 20%;
+
+  background: colors.$nav-color;
+  color: colors.$nav-text;
+
+  font-size: medium;
+
+  .leftNav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    .profilePic {
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .name {
+      margin: 10%;
+      text-wrap: nowrap;
+      font-weight: lighter;
+    }
+  }
+
+  .navOption {
+    margin: 7%;
+    color: colors.$nav-text;
+    text-decoration: none;
+    font-family: NotoSans;
+  }
+}

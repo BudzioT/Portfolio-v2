@@ -1,0 +1,42 @@
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/Noto_Sans/static/NotoSans-Regular.ttf);
+}
+nav {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: 3%;
+  padding-right: 20%;
+  background: #002333;
+  color: #FCFCFD;
+  font-size: medium;
+}
+nav .leftNav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+nav .leftNav .profilePic {
+  height: 40px;
+  border-radius: 50%;
+}
+nav .leftNav .name {
+  margin: 10%;
+  text-wrap: nowrap;
+  font-weight: lighter;
+}
+nav .navOption {
+  margin: 7%;
+  color: #FCFCFD;
+  text-decoration: none;
+  font-family: NotoSans;
+}
+
+/*# sourceMappingURL=navbar.css.map */
