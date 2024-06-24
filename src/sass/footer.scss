@@ -10,11 +10,11 @@ footer {
   justify-content: center;
   align-items: center;
 
-  background-color: colors.$nav-color;
-  color: colors.$nav-text;
+  background-color: colors.$blue-black;
+  color: colors.$white;
 
   .line {
-    border: 2px solid colors.$nav-text;
+    border: 2px solid colors.$white;
     height: 17.5px;
     margin-right: 3%;
   }
@@ -26,7 +26,7 @@ footer {
 
   .footerLink {
     text-decoration: none;
-    color: colors.$nav-text;
+    color: colors.$white;
     margin-right: 3%;
     font-size: large;
   }

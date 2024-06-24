@@ -2,7 +2,6 @@
 @use "fonts";
 
 nav {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -16,8 +15,8 @@ nav {
   padding-left: 3%;
   padding-right: 20%;
 
-  background: colors.$nav-color;
-  color: colors.$nav-text;
+  background: colors.$blue-black;
+  color: colors.$white;
 
   font-size: medium;
 
@@ -40,7 +39,7 @@ nav {
 
   .navOption {
     margin: 7%;
-    color: colors.$nav-text;
+    color: colors.$white;
     text-decoration: none;
     font-family: NotoSans;
   }

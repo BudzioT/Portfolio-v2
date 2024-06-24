@@ -1,7 +1,9 @@
+import SecHome from "../components/SecHome"
+
 const Home = () => {
     return (
         <>
-            <p>Home</p>
+            <SecHome/>
         </>
     );
 }

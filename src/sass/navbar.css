@@ -3,7 +3,6 @@
   src: url(../fonts/Noto_Sans/static/NotoSans-Regular.ttf);
 }
 nav {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
