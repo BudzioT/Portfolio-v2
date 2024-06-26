@@ -28,6 +28,14 @@ const SecAbout = () => {
                             I take an interest in system, AI and game development, but also
                             photo, video montage and recording.
                         </p>
+                        <p>
+                            I learn algorithms, used them to solve problems at platforms
+                            like LeetCode, and once in a while analyze data.
+                        </p>
+                        <p>
+                            The GUI libs I use, are for example: QT, QtQuick, SDL2 or just
+                            plain OpenGL with window library.
+                        </p>
                     </text>
                 </div>
 
@@ -40,6 +48,7 @@ const SecAbout = () => {
                     <Skill singleSkill="OpenGL"/>
                     <Skill singleSkill="C#"/>
                     <Skill singleSkill="Rust"/>
+                    <Skill singleSkill="QT"/>
                     <Skill singleSkill="Unreal Engine"/>
                     <Skill singleSkill="SQL"/>
 

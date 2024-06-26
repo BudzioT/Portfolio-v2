@@ -1,12 +1,13 @@
 .skill {
   background-color: #FCFCFD;
   border-radius: 10px;
-  margin-right: 10%;
+  margin-right: 5%;
   padding-top: 5px;
   padding-bottom: 5px;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
 }
 .skill .skillText {
-  padding: 20px;
+  padding: 30px;
   color: #002333;
   font-size: large;
   font-family: "Roboto Flex";

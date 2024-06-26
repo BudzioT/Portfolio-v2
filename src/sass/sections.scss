@@ -37,9 +37,11 @@
   background-color: colors.$dark-blue;
   color: colors.$white;
   padding-top: 10%;
+  padding-bottom: 10%;
 
   .title {
     font-size: 250%;
+    font-weight: 600;
   }
 
   .underline {
@@ -64,6 +66,7 @@
     display: flex;
 
     .aboutInfo {
+      margin-top: 2%;
       padding-left: 5%;
       width: 50%;
     }
@@ -75,9 +78,24 @@
       justify-content: space-evenly;
       flex-wrap: wrap;
       padding-left: 5%;
-      margin-top: 2%;
+      margin-top: 5%;
+      height: 200px
     }
   }
+}
 
+.projects {
+  text-align: center;
+  background-color: colors.$bisque-gray;
+  padding-top: 10%;
+  padding-bottom: 10%;
 
+  .title {
+    font-size: 250%;
+    font-weight: 600;
+  }
+
+  .projectList {
+
+  }
 }
