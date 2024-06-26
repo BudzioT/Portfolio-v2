@@ -1,5 +1,5 @@
-import "../sass/secHome.scss"
-import arrow from "../img/arrow.svg"
+import "../../sass/sections.scss"
+import arrow from "../../img/arrow.svg"
 
 const SecHome = () => {
     return (

@@ -1,0 +1,15 @@
+.skill {
+  background-color: #FCFCFD;
+  border-radius: 10px;
+  margin-right: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.skill .skillText {
+  padding: 20px;
+  color: #002333;
+  font-size: large;
+  font-family: "Roboto Flex";
+}
+
+/*# sourceMappingURL=skill.css.map */

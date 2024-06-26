@@ -1,0 +1,83 @@
+@use "colors" as colors;
+
+.home {
+  background-color: colors.$bisque-gray;
+  padding-top: 20%;
+  padding-bottom: 5%;
+
+  .introduction {
+    color: colors.$blue-black;
+    font-family: "Roboto Mono";
+    font-size: 350%;
+    text-align: center;
+
+    .name {
+      color: colors.$sea;
+    }
+  }
+
+  .description {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 125%;
+  }
+
+  .arrow {
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+  }
+}
+
+
+.about {
+  text-align: center;
+  background-color: colors.$dark-blue;
+  color: colors.$white;
+  padding-top: 10%;
+
+  .title {
+    font-size: 250%;
+  }
+
+  .underline {
+    width: 15%;
+    height: 2px;
+    background-color: colors.$white;
+  }
+
+  .subtitles {
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-around;
+
+    .subtitle {
+      font-size: 200%;
+      font-family: "Roboto Mono";
+      letter-spacing: 2px;
+    }
+  }
+
+  .aboutDetails {
+    display: flex;
+
+    .aboutInfo {
+      padding-left: 5%;
+      width: 50%;
+    }
+
+    .skills {
+      display: flex;
+      width: 50%;
+      align-items: start;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding-left: 5%;
+      margin-top: 2%;
+    }
+  }
+
+
+}
