@@ -96,6 +96,14 @@
   }
 
   .projectList {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
+  .projectButton {
+    margin-top: 8%;
+    color: colors.$blue-black;
   }
 }

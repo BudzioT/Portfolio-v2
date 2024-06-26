@@ -1,5 +1,8 @@
 import Project from "../Project";
-import chip8Img from "../../img/Chip8.png"
+import project1Img from "../../img/Chip8.png"
+import project2Img from "../../img/snake.png"
+import project3Img from "../../img/string.png"
+import project4Img from "../../img/box.png"
 
 const SecProjects = () => {
     return (
@@ -13,9 +16,14 @@ const SecProjects = () => {
                 They show my programming, analyzing and problem solving abilities
             </p>
 
-            <div id="projectList">
-                <Project image={chip8Img} title="Chip-8 Emulator"/>
+            <div className="projectList">
+                <Project image={project1Img} title="Chip8" color="white" back="black"/>
+                <Project image={project2Img} title="Snake" color="black" back="white"/>
+                <Project image={project3Img} title="String class" color="black" back="white"/>
+                <Project image={project4Img} title="Box lighting render" color="white" back="black"/>
             </div>
+
+            <button className="projectButton">More projects</button>
         </section>
     );
 }

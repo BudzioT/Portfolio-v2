@@ -1,13 +1,19 @@
 import "../sass/project.scss"
 
-const Project = (image, title) => {
+const Project = ({image, title, color, back}) => {
     return (
-        <div style={{
-            backgroundImage: `url(${image.image})`,
-            width: '400px',
-            height: '400px'
-        }}>
-
+        <div className="container">
+            <div className="project" style={{
+                backgroundImage: `url(${image})`,
+                width: '400px',
+                height: '400px'
+            }}>
+                <div className="projectTitleBackground" style={{background: back}}>
+                    <text className="projectTitle" style={{color: color}}>
+                        {title}
+                    </text>
+                </div>
+            </div>
         </div>
     );
 }

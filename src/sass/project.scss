@@ -1,7 +1,22 @@
 @use "colors" as colors;
 
-.project {
+.container {
+  flex-basis: 450px;
   margin-top: 10%;
-  width: 40%;
-  height: 40%;
+
+  .project {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+
+    .projectTitleBackground {
+      padding: 2%;
+      border-radius: 30px;
+
+      .projectTitle {
+        font-size: xx-large;
+        font-weight: bold;
+      }
+    }
+  }
 }

@@ -80,5 +80,15 @@
   font-size: 250%;
   font-weight: 600;
 }
+.projects .projectList {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.projects .projectButton {
+  margin-top: 8%;
+  color: #002333;
+}
 
 /*# sourceMappingURL=sections.css.map */

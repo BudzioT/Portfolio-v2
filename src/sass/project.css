@@ -1,7 +1,19 @@
-.project {
+.container {
+  flex-basis: 450px;
   margin-top: 10%;
-  width: 40%;
-  height: 40%;
+}
+.container .project {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+}
+.container .project .projectTitleBackground {
+  padding: 2%;
+  border-radius: 30px;
+}
+.container .project .projectTitleBackground .projectTitle {
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=project.css.map */
