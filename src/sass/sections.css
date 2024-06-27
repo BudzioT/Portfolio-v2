@@ -79,6 +79,10 @@
 .projects .title {
   font-size: 250%;
   font-weight: 600;
+  color: #002333;
+}
+.projects .description {
+  color: #002333;
 }
 .projects .projectList {
   display: flex;
@@ -89,6 +93,69 @@
 .projects .projectButton {
   margin-top: 8%;
   color: #002333;
+  background: linear-gradient(272deg, #149A9B, #C0DACE);
+  filter: drop-shadow(3px 6px 20px #149A9B);
+  width: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: none;
+  border-radius: 50px;
+  font-family: "Mulish";
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact {
+  background-color: #B4BEC8;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+.contact .title {
+  font-size: 250%;
+  font-weight: 600;
+  color: #002333;
+}
+.contact .container {
+  display: flex;
+  justify-content: center;
+}
+.contact .container .contactForm {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 5%;
+  color: #002333;
+  background-color: #B0D9D4;
+}
+.contact .container .contactForm .subtitle {
+  font-size: 130%;
+  margin-left: 10%;
+}
+.contact .container .contactForm .inputBox {
+  background-color: #CFE9E3;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 100%;
+  border: none;
+  border-radius: 15px;
+}
+.contact .container .contactForm .largeInputBox {
+  background-color: #CFE9E3;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 100%;
+  border: none;
+  border-radius: 15px;
+}
+.contact .container .contactForm .submitButton {
+  width: 20%;
+  align-self: end;
+  margin-right: 9%;
+  border-radius: 20px;
+  font-size: large;
 }
 
 /*# sourceMappingURL=sections.css.map */

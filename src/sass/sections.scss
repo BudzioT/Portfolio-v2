@@ -93,6 +93,11 @@
   .title {
     font-size: 250%;
     font-weight: 600;
+    color: colors.$blue-black;
+  }
+
+  .description {
+    color: colors.$blue-black;
   }
 
   .projectList {
@@ -105,5 +110,82 @@
   .projectButton {
     margin-top: 8%;
     color: colors.$blue-black;
+    background: linear-gradient(272deg, colors.$sea, colors.$blue-white);
+    filter: drop-shadow(3px 6px 20px colors.$sea);
+
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    border: none;
+    border-radius: 50px;
+
+    font-family: "Mulish";
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.contact {
+  background-color: colors.$gray;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+
+  .title {
+    font-size: 250%;
+    font-weight: 600;
+    color: colors.$blue-black;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+
+    .contactForm {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      width: 50%;
+      padding-top: 5%;
+      color: colors.$blue-black;
+
+      background-color: colors.$pastel-green;
+
+      .subtitle {
+        font-size: 130%;
+        margin-left: 10%;
+      }
+
+      .inputBox {
+        background-color: colors.$pastel-light-green;
+        margin-left: 10%;
+        width: 80%;
+        font-size: 100%;
+
+        border: none;
+        border-radius: 15px;
+      }
+
+      .largeInputBox {
+        background-color: colors.$pastel-light-green;
+        margin-left: 10%;
+        width: 80%;
+        font-size: 100%;
+
+
+        border: none;
+        border-radius: 15px;
+      }
+
+      .submitButton {
+        width: 20%;
+        align-self: end;
+        margin-right: 9%;
+        border-radius: 20px;
+        font-size: large;
+      }
+    }
   }
 }

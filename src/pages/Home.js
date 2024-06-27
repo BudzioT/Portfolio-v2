@@ -1,6 +1,7 @@
 import SecHome from "../components/sections/SecHome"
 import SecAbout from "../components/sections/SecAbout"
 import SecProjects from "../components/sections/SecProjects"
+import SecContact from "../components/sections/SecContact";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <SecHome/>
             <SecAbout/>
             <SecProjects/>
+            <SecContact/>
         </>
     );
 }
