@@ -4,9 +4,7 @@ const Project = ({image, title, color, back}) => {
     return (
         <div className="container">
             <div className="project" style={{
-                backgroundImage: `url(${image})`,
-                width: '400px',
-                height: '400px'
+                backgroundImage: `url(${image})`
             }}>
                 <div className="projectTitleBackground" style={{background: back}}>
                     <text className="projectTitle" style={{color: color}}>

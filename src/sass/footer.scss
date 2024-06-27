@@ -39,6 +39,10 @@ footer {
     color: colors.$gray;
   }
 
+  .footerLink:active {
+    font-size: larger;
+  }
+
   .copyright {
     margin-top: 2%;
     margin-bottom: 3%;

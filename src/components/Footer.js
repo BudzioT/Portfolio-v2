@@ -41,7 +41,7 @@ const Footer = () => {
             <a href="" target="_blank" className="footerLink">Twitter</a>
 
             <div className="break"/>
-            <text className="copyright">Copyright...</text>
+            <text className="copyright">© 2024 Bartosz Budnik. All rights reserved.</text>
         </footer>
     );
 }

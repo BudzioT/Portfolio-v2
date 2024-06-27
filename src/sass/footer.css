@@ -30,6 +30,9 @@ footer .footerLink {
 footer .footerLink:hover {
   color: #B4BEC8;
 }
+footer .footerLink:active {
+  font-size: larger;
+}
 footer .copyright {
   margin-top: 2%;
   margin-bottom: 3%;

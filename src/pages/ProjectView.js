@@ -1,12 +1,17 @@
 import Navbar from "../components/Navbar";
 import "../sass/projectView.scss"
+import "../components/ProjectModal"
 import project1Img from "../img/Chip8.png";
 import Project from "../components/Project";
 import project2Img from "../img/snake.png";
 import project3Img from "../img/string.png";
 import project4Img from "../img/box.png";
+import {useState} from "react";
+import ProjectModal from "../components/ProjectModal";
 
 const ProjectView = () => {
+    const [showModal, setShowModal] = useState(false);
+
     return (
         <>
             <Navbar first="home" second="C++" third="python" fourth="rust" fifth="socials" char='/'/>
@@ -25,10 +30,12 @@ const ProjectView = () => {
                 </p>
 
                 <div className="projectList">
-                    <Project image={project1Img} title="Chip8 Emulator" color="white" back="black"/>
+                    <Project image={project1Img} title="Chip8 Emulator" color="white" back="black"
+                    onClick={() => setShowModal(true)}/>
                     <Project image={project2Img} title="Snake" color="black" back="white"/>
                     <Project image={project3Img} title="String class" color="black" back="white"/>
                     <Project image={project4Img} title="Box lighting render" color="white" back="black"/>
+                    {showModal && <ProjectModal showModal={showModal} setShowModal={setShowModal}/>}
                 </div>
             </div>
         </>

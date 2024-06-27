@@ -15,9 +15,9 @@
   font-size: xx-large;
   font-weight: bold;
 }
-
-.container:hover {
-  filter: drop-shadow(3px 3px 3px #B4BEC8);
+.container :hover {
+  zoom: 1.1;
+  filter: drop-shadow(4px 4px 3px #B4BEC8);
 }
 
 /*# sourceMappingURL=project.css.map */
