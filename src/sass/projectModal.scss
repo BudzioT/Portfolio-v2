@@ -5,11 +5,37 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
+  width: 75%;
+  height: 60%;
+
+
+  border: none;
+  border-radius: 20px;
   background-color: colors.$sea;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .arrowTitle {
+    padding-left: 3%;
+    padding-top: 2%;
+    text-align: center;
+
+    .backArrow {
+      position: absolute;
+      left: 3%;
+      border: solid colors.$white;
+      border-width: 0 7px 7px 0;
+      display: inline-block;
+      padding: 7px;
+
+      transform: rotate(135deg);
+
+      filter: drop-shadow(3px 3px 3px colors.$pastel-light-green);
+    }
+
+    .modalTitle {
+      font-size: xx-large;
+      font-weight: bold;
+      font-family: "Roboto Mono";
+      color: colors.$blue-black;
+    }
+  }
 }

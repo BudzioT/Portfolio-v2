@@ -122,11 +122,11 @@
   font-weight: 600;
   color: #002333;
 }
-.contact .container {
+.contact .contactContainer {
   display: flex;
   justify-content: center;
 }
-.contact .container .contactForm {
+.contact .contactContainer .contactForm {
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -136,11 +136,11 @@
   padding-bottom: 3%;
   background-color: #B0D9D4;
 }
-.contact .container .contactForm .subtitle {
+.contact .contactContainer .contactForm .subtitle {
   font-size: 130%;
   margin-left: 10%;
 }
-.contact .container .contactForm .inputBox {
+.contact .contactContainer .contactForm .inputBox {
   background-color: #CFE9E3;
   margin-left: 10%;
   width: 78%;
@@ -153,7 +153,7 @@
   border: none;
   border-radius: 15px;
 }
-.contact .container .contactForm .largeInputBox {
+.contact .contactContainer .contactForm .largeInputBox {
   background-color: #CFE9E3;
   margin-left: 10%;
   width: 78%;
@@ -168,7 +168,7 @@
   border: none;
   border-radius: 15px;
 }
-.contact .container .contactForm .submitButton {
+.contact .contactContainer .contactForm .submitButton {
   width: 20%;
   align-self: end;
   margin-right: 9%;
@@ -183,7 +183,7 @@
   font-weight: 700;
   text-align: center;
 }
-.contact .container .contactForm .submitButton:hover {
+.contact .contactContainer .contactForm .submitButton:hover {
   filter: drop-shadow(3px 6px 20px #149A9B);
 }
 

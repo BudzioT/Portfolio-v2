@@ -5,7 +5,7 @@ const SecContact = () => {
             <p>Send me an e-mail if you want to ask me something, by filling this form.</p>
             <p>You can ask me anything, suggest a collaboration or a work.</p>
 
-            <div className="container">
+            <div className="contactContainer">
                 <form className="contactForm">
                     <text className="subtitle">Name</text>
                     <input className="inputBox" type="text" placeholder="Name"/>

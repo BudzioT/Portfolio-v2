@@ -17,7 +17,7 @@ const SecProjects = () => {
             </p>
 
             <div className="projectList">
-                <Project image={project1Img} title="Chip8 Emulator" color="white" back="black"/>
+                <Project image={project1Img} title="Chip-8 Emulator" color="white" back="black"/>
                 <Project image={project2Img} title="Snake" color="black" back="white"/>
                 <Project image={project3Img} title="String class" color="black" back="white"/>
                 <Project image={project4Img} title="Box lighting render" color="white" back="black"/>

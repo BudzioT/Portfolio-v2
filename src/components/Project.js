@@ -1,8 +1,8 @@
 import "../sass/project.scss"
 
-const Project = ({image, title, color, back}) => {
+const Project = ({image, title, color, back, onClick}) => {
     return (
-        <div className="container">
+        <div className="container" onClick={onClick}>
             <div className="project" style={{
                 backgroundImage: `url(${image})`
             }}>

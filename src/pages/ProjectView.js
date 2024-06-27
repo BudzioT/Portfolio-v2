@@ -10,9 +10,11 @@ import ProjectModal from "../components/ProjectModal";
 
 const ProjectView = () => {
     const [open, setOpen] = useState(false);
-    const handleOpen = () => {
-        console.log("Clicked");
+    const [modalTitle, setModalTitle] = useState("");
+
+    const handleOpen = (title) => {
         setOpen(true);
+        setModalTitle(title);
     };
 
     return (
@@ -33,17 +35,22 @@ const ProjectView = () => {
                 </p>
 
                 <div className="projectList">
-                    //Add onClick
-                    <Project image={project1Img} title="Chip8 Emulator" color="white" back="black"/>
-                    <Project image={project2Img} title="Snake" color="black" back="white"/>
-                    <Project image={project3Img} title="String class" color="black" back="white"/>
-                    <Project image={project4Img} title="Box lighting render" color="white" back="black"/>
-                </div>
+                    <Project image={project1Img} title="Chip-8 Emulator" color="white" back="black"
+                             onClick={() => handleOpen("Chip-8 Emulator")}/>
 
-                <button onClick={handleOpen}>Open Modal</button>
+                    <Project image={project2Img} title="Snake" color="black" back="white"
+                             onClick={() => handleOpen("Snake")}/>
+
+                    <Project image={project3Img} title="String class" color="black" back="white"
+                             onClick={() => handleOpen("String class")}/>
+
+                    <Project image={project4Img} title="Box lighting render" color="white" back="black"
+                             onClick={() => handleOpen("Box lighting render")}/>
+                </div>
             </div>
 
-            <ProjectModal open={open} onClose={() => setOpen(false)} />
+            <ProjectModal open={open} onClose={() => setOpen(false)}
+            title={modalTitle}/>
         </>
     );
 }
