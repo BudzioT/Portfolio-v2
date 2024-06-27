@@ -109,6 +109,7 @@
 }
 .projects .projectButton:hover {
   filter: drop-shadow(3px 6px 20px #149A9B);
+  font-size: larger;
 }
 
 .contact {
@@ -125,6 +126,7 @@
 .contact .contactContainer {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 .contact .contactContainer .contactForm {
   display: flex;
@@ -185,6 +187,7 @@
 }
 .contact .contactContainer .contactForm .submitButton:hover {
   filter: drop-shadow(3px 6px 20px #149A9B);
+  font-size: larger;
 }
 
 /*# sourceMappingURL=sections.css.map */

@@ -33,13 +33,13 @@ const ProjectView = () => {
                 <hr className="underline"/>
                 <p className="description">Here are my most important projects</p>
                 <p className="description descEnd">
-                    They are divided by programming languages for easier navigation
+                    They are grouped by programming languages for easier navigation
                 </p>
 
                 <text className="language" id="C++">C++</text>
                 <hr className="smallUnderline"/>
                 <p className="description">
-                    These are my main projects, ranging from games to applications and even more
+                    C++ projects are my main projects, ranging from games to applications and even more
                 </p>
 
                 <div className="projectList">
@@ -53,7 +53,7 @@ const ProjectView = () => {
                                      "",
                                      ["C++", "CMake", "SDL2"])}/>
 
-                    <Project image={project2Img} title="Snake" color="black" back="white"
+                    <Project image={project2Img} title="Snake" color="black" back="green"
                              onClick={() =>
                                  handleOpen("Snake",
                                      "A Snake made with C++ and SDL. It has proper menu, game over screen" +

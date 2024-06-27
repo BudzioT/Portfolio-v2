@@ -131,6 +131,7 @@
 
   .projectButton:hover {
     filter: drop-shadow(3px 6px 20px colors.$sea);
+    font-size: larger;
   }
 }
 
@@ -149,6 +150,7 @@
   .contactContainer {
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 
     .contactForm {
       display: flex;
@@ -222,6 +224,7 @@
 
       .submitButton:hover {
         filter: drop-shadow(3px 6px 20px colors.$sea);
+        font-size: larger;
       }
     }
   }

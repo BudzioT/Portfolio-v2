@@ -6,7 +6,9 @@ const Navbar = ({first, second, third, fourth, fifth, char}) => {
         <nav>
             <div className="leftNav">
                 <img src={profilePic} alt="Profile" className="profilePic"/>
-                <i className="name">Bartosz Budnik</i>
+                <a href="https://github.com/BudzioT" className="githubProfile">
+                    <i className="name">Bartosz Budnik</i>
+                </a>
             </div>
 
             <div className="rightNav">

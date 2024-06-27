@@ -20,6 +20,7 @@ footer .icon {
 }
 footer .icon:hover {
   filter: brightness(60%);
+  zoom: 1.05;
 }
 footer .footerLink {
   text-decoration: none;
@@ -29,6 +30,7 @@ footer .footerLink {
 }
 footer .footerLink:hover {
   color: #B4BEC8;
+  font-size: larger;
 }
 footer .footerLink:active {
   font-size: larger;

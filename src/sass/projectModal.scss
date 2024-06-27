@@ -6,14 +6,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75%;
-  height: 60%;
+  height: auto;
+  padding-bottom: 4%;
 
   color: colors.$white;
   font-family: "Roboto";
 
   border: none;
   border-radius: 20px;
-  background-color: colors.$sea;
+  background-color: colors.$dark-blue;
 
   .arrowTitle {
     padding-left: 3%;
@@ -31,10 +32,16 @@
       transform: rotate(135deg);
 
       filter: drop-shadow(3px 3px 3px colors.$pastel-light-green);
+
+      :active {
+        border-width: 0 9px 9px 0;
+        padding: 9px;
+      }
     }
 
     .modalTitle {
       font-size: xx-large;
+      letter-spacing: 2px;
       font-weight: bold;
       font-family: "Roboto Mono";
     }
@@ -65,10 +72,37 @@
     }
   }
 
-  .sourceButton {
-    border-radius: 20px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: larger;
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+
+    .projectLink {
+      .sourceButton {
+        border-radius: 20px;
+        padding-top: 4%;
+        padding-left: 20%;
+        padding-bottom: 4%;
+        padding-right: 20%;
+
+        text-align: center;
+        font-size: x-large;
+        font-family: "Mulish";
+
+        border: none;
+        color: colors.$blue-black;
+        background: linear-gradient(272deg, colors.$sea, colors.$blue-white);
+      }
+
+      :hover {
+        filter: drop-shadow(4px 5px 6px colors.$sea);
+      }
+
+      :active {
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+      }
+    }
   }
 }

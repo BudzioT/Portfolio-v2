@@ -4,12 +4,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75%;
-  height: 60%;
+  height: auto;
+  padding-bottom: 4%;
   color: #FCFCFD;
   font-family: "Roboto";
   border: none;
   border-radius: 20px;
-  background-color: #149A9B;
+  background-color: #0A3041;
 }
 .modalBackground .arrowTitle {
   padding-left: 3%;
@@ -26,8 +27,13 @@
   transform: rotate(135deg);
   filter: drop-shadow(3px 3px 3px #CFE9E3);
 }
+.modalBackground .arrowTitle .backArrow :active {
+  border-width: 0 9px 9px 0;
+  padding: 9px;
+}
 .modalBackground .arrowTitle .modalTitle {
   font-size: xx-large;
+  letter-spacing: 2px;
   font-weight: bold;
   font-family: "Roboto Mono";
 }
@@ -51,11 +57,31 @@
   width: 300px;
   height: 300px;
 }
-.modalBackground .sourceButton {
+.modalBackground .buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+.modalBackground .buttonContainer .projectLink .sourceButton {
   border-radius: 20px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  font-size: larger;
+  padding-top: 4%;
+  padding-left: 20%;
+  padding-bottom: 4%;
+  padding-right: 20%;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Mulish";
+  border: none;
+  color: #002333;
+  background: linear-gradient(272deg, #149A9B, #C0DACE);
+}
+.modalBackground .buttonContainer .projectLink :hover {
+  filter: drop-shadow(4px 5px 6px #149A9B);
+}
+.modalBackground .buttonContainer .projectLink :active {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 
 /*# sourceMappingURL=projectModal.css.map */

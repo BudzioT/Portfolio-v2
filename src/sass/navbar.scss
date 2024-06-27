@@ -3,6 +3,7 @@
 
 html {
   scroll-behavior: smooth;
+  transition: all 1s linear;
 }
 
 nav {
@@ -36,10 +37,15 @@ nav {
       border-radius: 50%;
     }
 
-    .name {
-      margin: 10%;
-      text-wrap: nowrap;
-      font-weight: lighter;
+    .githubProfile {
+      text-decoration: none;
+      color: colors.$white;
+
+      .name {
+        margin: 10%;
+        text-wrap: nowrap;
+        font-weight: lighter;
+      }
     }
   }
 

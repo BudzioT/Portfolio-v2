@@ -36,9 +36,11 @@ const ProjectModal = ({open, onClose, image, title, text, link, technologies}) =
                     </div>
                 </div>
 
-                <a className="projectLink" href={link} target="_blank">
-                    <button className="sourceButton">Source</button>
-                </a>
+                <div className="buttonContainer">
+                    <a className="projectLink" href={link} target="_blank">
+                        <button className="sourceButton">Source</button>
+                    </a>
+                </div>
             </div>
         </Modal>
     );

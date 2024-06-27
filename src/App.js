@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import ProjectView from "./pages/ProjectView";
+import Cursor from "./components/Cursor"
 import {useState} from "react";
 
 function App() {

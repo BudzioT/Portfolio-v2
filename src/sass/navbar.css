@@ -4,6 +4,7 @@
 }
 html {
   scroll-behavior: smooth;
+  transition: all 1s linear;
 }
 
 nav {
@@ -32,7 +33,11 @@ nav .leftNav .profilePic {
   height: 40px;
   border-radius: 50%;
 }
-nav .leftNav .name {
+nav .leftNav .githubProfile {
+  text-decoration: none;
+  color: #FCFCFD;
+}
+nav .leftNav .githubProfile .name {
   margin: 10%;
   text-wrap: nowrap;
   font-weight: lighter;
