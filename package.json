@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://budziot.github.io/Portfolio-v2/",
+  "homepage": "https://budziot.github.io/Portfolio-v2",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
