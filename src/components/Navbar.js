@@ -1,7 +1,7 @@
-import profilePic from "../img/profilePic.webp"
+import profilePic from "../img/profilePic.jpg"
 import "../sass/navbar.scss"
 
-const Navbar = () => {
+const Navbar = ({first, second, third, fourth, fifth}) => {
     return (
         <nav>
             <div className="leftNav">
@@ -10,11 +10,21 @@ const Navbar = () => {
             </div>
 
             <div className="rightNav">
-                <a href="/#" className="navOption">Home</a>
-                <a href="/#" className="navOption">About</a>
-                <a href="/#" className="navOption">Projects</a>
-                <a href="/#" className="navOption">Contact</a>
-                <a href="/#" className="navOption">Socials</a>
+                <a href={'#' + first} className="navOption">
+                    {first.charAt(0).toUpperCase() + first.slice(1)}
+                </a>
+                <a href={'#' + second} className="navOption">
+                    {second.charAt(0).toUpperCase() + second.slice(1)}
+                </a>
+                <a href={'#' + third} className="navOption">
+                    {third.charAt(0).toUpperCase() + third.slice(1)}
+                </a>
+                <a href={'#' + fourth} className="navOption">
+                    {fourth.charAt(0).toUpperCase() + fourth.slice(1)}
+                </a>
+                <a href={'#' + fifth} className="navOption">
+                    {fifth.charAt(0).toUpperCase() + fifth.slice(1)}
+                </a>
             </div>
         </nav>
     );

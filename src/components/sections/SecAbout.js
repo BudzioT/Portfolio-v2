@@ -3,7 +3,7 @@ import Skill from "../Skill"
 
 const SecAbout = () => {
     return (
-        <section className="about">
+        <section className="about" id="about">
             <text className="title">About me</text>
             <hr className="underline"/>
             <div className="subtitles">

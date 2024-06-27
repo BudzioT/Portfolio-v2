@@ -6,7 +6,7 @@ import project4Img from "../../img/box.png"
 
 const SecProjects = () => {
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <p className="title">Projects</p>
             <p className="description">
                 Here are my finished projects to showcase my basic skills.
@@ -23,7 +23,9 @@ const SecProjects = () => {
                 <Project image={project4Img} title="Box lighting render" color="white" back="black"/>
             </div>
 
-            <button className="projectButton">More projects</button>
+            <a href="/projects">
+                <button className="projectButton">More projects</button>
+            </a>
         </section>
     );
 }

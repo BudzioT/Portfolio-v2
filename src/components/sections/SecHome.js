@@ -1,9 +1,10 @@
 import "../../sass/sections.scss"
 import arrow from "../../img/arrow.svg"
+import {useHref} from "react-router-dom";
 
 const SecHome = () => {
     return (
-        <section className="home">
+        <section className="home" id="home">
             <h1 className="introduction">
                 I'm <font className="name">Bartosz Budnik</font>
             </h1>
@@ -13,8 +14,9 @@ const SecHome = () => {
                 to make software
             </p>
 
-            <img src={arrow} alt="down arrow" className="arrow"/>
-
+            <a href="#about">
+                <img src={arrow} alt="down arrow" className="arrow"/>
+            </a>
         </section>
     );
 }

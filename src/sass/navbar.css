@@ -2,11 +2,17 @@
   font-family: NotoSans;
   src: url(../fonts/Noto_Sans/static/NotoSans-Regular.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  z-index: 3;
   height: 50px;
   left: 0;
   right: 0;

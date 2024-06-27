@@ -8,7 +8,7 @@ import twitterIcon from "../img/twitter.svg"
 
 const Footer = () => {
     return(
-        <footer>
+        <footer id="socials">
             <img src={githubIcon} alt="Github" className="icon"/>
             <a href="https://github.com/BudzioT" className="footerLink" target="_blank">Github</a>
             <div className="line"/>

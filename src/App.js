@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <Navbar/>
           <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/projects" element={<ProjectView/>}></Route>

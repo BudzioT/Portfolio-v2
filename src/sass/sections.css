@@ -128,6 +128,7 @@
   width: 50%;
   padding-top: 5%;
   color: #002333;
+  padding-bottom: 3%;
   background-color: #B0D9D4;
 }
 .contact .container .contactForm .subtitle {
@@ -137,16 +138,28 @@
 .contact .container .contactForm .inputBox {
   background-color: #CFE9E3;
   margin-left: 10%;
-  width: 80%;
+  width: 78%;
   font-size: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 4%;
   border: none;
   border-radius: 15px;
 }
 .contact .container .contactForm .largeInputBox {
   background-color: #CFE9E3;
   margin-left: 10%;
-  width: 80%;
-  font-size: 100%;
+  width: 78%;
+  height: 120px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  font-size: 110%;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  resize: vertical;
   border: none;
   border-radius: 15px;
 }
@@ -155,7 +168,16 @@
   align-self: end;
   margin-right: 9%;
   border-radius: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #002333;
+  background: linear-gradient(272deg, #149A9B, #C0DACE);
+  filter: drop-shadow(3px 6px 20px #149A9B);
+  border: none;
   font-size: large;
+  font-family: "Mulish";
+  font-weight: 700;
+  text-align: center;
 }
 
 /*# sourceMappingURL=sections.css.map */

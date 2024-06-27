@@ -1,6 +1,6 @@
 const SecContact = () => {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <p className="title">Contact</p>
             <p>Send me an e-mail if you want to ask me something, by filling this form.</p>
             <p>You can ask me anything, suggest a collaboration or a work.</p>
@@ -17,7 +17,7 @@ const SecContact = () => {
                     <input className="inputBox" type="text" placeholder="Subject"/>
 
                     <text className="subtitle">Message</text>
-                    <input className="largeInputBox" type="text" placeholder="Message"/>
+                    <textarea className="largeInputBox" placeholder="Message"/>
 
                     <input className="submitButton" type="submit" value="Submit"/>
                 </form>
