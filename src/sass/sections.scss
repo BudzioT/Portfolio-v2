@@ -29,6 +29,10 @@
     margin-right: auto;
     width: 4%;
   }
+
+  .arrow:hover {
+    width: 5%;
+  }
 }
 
 
@@ -111,7 +115,6 @@
     margin-top: 8%;
     color: colors.$blue-black;
     background: linear-gradient(272deg, colors.$sea, colors.$blue-white);
-    filter: drop-shadow(3px 6px 20px colors.$sea);
 
     width: 20%;
     padding-top: 1%;
@@ -124,6 +127,10 @@
     font-size: large;
     font-weight: 700;
     text-align: center;
+  }
+
+  .projectButton:hover {
+    filter: drop-shadow(3px 6px 20px colors.$sea);
   }
 }
 
@@ -204,7 +211,6 @@
 
         color: colors.$blue-black;
         background: linear-gradient(272deg, colors.$sea, colors.$blue-white);
-        filter: drop-shadow(3px 6px 20px colors.$sea);
 
         border: none;
 
@@ -212,6 +218,10 @@
         font-family: "Mulish";
         font-weight: 700;
         text-align: center;
+      }
+
+      .submitButton:hover {
+        filter: drop-shadow(3px 6px 20px colors.$sea);
       }
     }
   }

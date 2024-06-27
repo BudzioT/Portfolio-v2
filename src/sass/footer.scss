@@ -24,11 +24,19 @@ footer {
     margin-right: 1%;
   }
 
+  .icon:hover {
+    filter: brightness(60%);
+  }
+
   .footerLink {
     text-decoration: none;
     color: colors.$white;
     margin-right: 3%;
     font-size: large;
+  }
+
+  .footerLink:hover {
+    color: colors.$gray;
   }
 
   .copyright {

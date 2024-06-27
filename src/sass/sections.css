@@ -24,6 +24,9 @@
   margin-right: auto;
   width: 4%;
 }
+.home .arrow:hover {
+  width: 5%;
+}
 
 .about {
   text-align: center;
@@ -94,7 +97,6 @@
   margin-top: 8%;
   color: #002333;
   background: linear-gradient(272deg, #149A9B, #C0DACE);
-  filter: drop-shadow(3px 6px 20px #149A9B);
   width: 20%;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -104,6 +106,9 @@
   font-size: large;
   font-weight: 700;
   text-align: center;
+}
+.projects .projectButton:hover {
+  filter: drop-shadow(3px 6px 20px #149A9B);
 }
 
 .contact {
@@ -172,12 +177,14 @@
   padding-bottom: 1%;
   color: #002333;
   background: linear-gradient(272deg, #149A9B, #C0DACE);
-  filter: drop-shadow(3px 6px 20px #149A9B);
   border: none;
   font-size: large;
   font-family: "Mulish";
   font-weight: 700;
   text-align: center;
+}
+.contact .container .contactForm .submitButton:hover {
+  filter: drop-shadow(3px 6px 20px #149A9B);
 }
 
 /*# sourceMappingURL=sections.css.map */

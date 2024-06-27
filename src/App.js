@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
           <Routes>
-              <Route path="/" element={<Home/>}/>
+              <Route path='/' element={<Home/>}/>
+              <Route path='/home' element={<Home/>}/>
+
               <Route path="/projects" element={<ProjectView/>}></Route>
           </Routes>
           <Footer/>

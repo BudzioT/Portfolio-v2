@@ -18,11 +18,17 @@ footer .icon {
   height: 40px;
   margin-right: 1%;
 }
+footer .icon:hover {
+  filter: brightness(60%);
+}
 footer .footerLink {
   text-decoration: none;
   color: #FCFCFD;
   margin-right: 3%;
   font-size: large;
+}
+footer .footerLink:hover {
+  color: #B4BEC8;
 }
 footer .copyright {
   margin-top: 2%;

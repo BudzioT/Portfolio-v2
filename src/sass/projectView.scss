@@ -2,4 +2,47 @@
 
 .projectView {
   background-color: colors.$white-beige;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  color: colors.$blue-black;
+
+  .title {
+    font-size: 350%;
+    font-family: "Roboto Mono";
+    letter-spacing: 5px;
+  }
+
+  .underline {
+    background-color: colors.$sea;
+    border: none;
+    height: 3px;
+    margin-top: -2%;
+    width: 26%;
+    margin-bottom: 3%;
+  }
+
+  .language {
+    font-size: 250%;
+    font-family: "Roboto Mono";
+    letter-spacing: 2px;
+  }
+
+  .descEnd {
+    margin-bottom: 15%;
+  }
+
+  .smallUnderline {
+    width: 6%;
+    height: 2px;
+    border: none;
+    background-color: colors.$sea;
+  }
+
+  .projectList {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }

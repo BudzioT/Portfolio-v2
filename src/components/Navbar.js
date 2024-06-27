@@ -1,7 +1,7 @@
 import profilePic from "../img/profilePic.jpg"
 import "../sass/navbar.scss"
 
-const Navbar = ({first, second, third, fourth, fifth}) => {
+const Navbar = ({first, second, third, fourth, fifth, char}) => {
     return (
         <nav>
             <div className="leftNav">
@@ -10,7 +10,7 @@ const Navbar = ({first, second, third, fourth, fifth}) => {
             </div>
 
             <div className="rightNav">
-                <a href={'#' + first} className="navOption">
+                <a href={char + first} className="navOption">
                     {first.charAt(0).toUpperCase() + first.slice(1)}
                 </a>
                 <a href={'#' + second} className="navOption">

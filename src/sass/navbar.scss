@@ -49,4 +49,12 @@ nav {
     text-decoration: none;
     font-family: NotoSans;
   }
+
+  .navOption:hover {
+    color: colors.$gray;
+  }
+
+  .navOption:active {
+    font-size: large;
+  }
 }

@@ -16,4 +16,8 @@
   font-weight: bold;
 }
 
+.container:hover {
+  filter: drop-shadow(3px 3px 3px #B4BEC8);
+}
+
 /*# sourceMappingURL=project.css.map */

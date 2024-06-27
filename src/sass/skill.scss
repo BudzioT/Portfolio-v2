@@ -16,3 +16,11 @@
     font-family: "Roboto Flex"
   }
 }
+
+.skill:hover {
+  background-color: colors.$blue-white;
+
+  .skillText {
+    font-size: larger;
+  }
+}

@@ -43,5 +43,11 @@ nav .navOption {
   text-decoration: none;
   font-family: NotoSans;
 }
+nav .navOption:hover {
+  color: #B4BEC8;
+}
+nav .navOption:active {
+  font-size: large;
+}
 
 /*# sourceMappingURL=navbar.css.map */

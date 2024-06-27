@@ -13,4 +13,11 @@
   font-family: "Roboto Flex";
 }
 
+.skill:hover {
+  background-color: #C0DACE;
+}
+.skill:hover .skillText {
+  font-size: larger;
+}
+
 /*# sourceMappingURL=skill.css.map */

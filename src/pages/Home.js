@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
     return (
         <>
-            <Navbar first="home" second="about" third="projects" fourth="contact" fifth="socials"/>
+            <Navbar first="home" second="about" third="projects" fourth="contact" fifth="socials" char="#"/>
             <SecHome/>
             <SecAbout/>
             <SecProjects/>
