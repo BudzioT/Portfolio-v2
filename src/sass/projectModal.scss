@@ -1,22 +1,15 @@
 @use "colors" as colors;
 
-.modalBackdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+.modalBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: colors.$sea;
 
   display: flex;
-  justify-content: center;
   align-items: center;
-  z-index: 9999;
-}
-
-.modalContent {
-  background-color: colors.$dark-blue;
-  width: 50%;
-  padding: 20px;
-  border-radius: 5px;
+  justify-content: center;
 }
